@@ -1,0 +1,53 @@
+@media (min-width: 575px) {
+  #sidebar {
+  position: fixed;
+  min-height: 100vh;
+  top: 0;
+  }
+}
+@media(max-width: 574px) {
+  #sidebar {
+    position:fixed;
+    z-index:1;
+  }
+  #mainContent {
+    margin-top: 56px;
+    padding-top: 15px;
+  }
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+.news li {
+  padding-bottom: 20px;
+}
+
+.books li {
+  padding-bottom: 20px;
+}
+
+.books img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.subcat {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.bullet img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+
+.entry {
+  padding-bottom: 10px;
+}
